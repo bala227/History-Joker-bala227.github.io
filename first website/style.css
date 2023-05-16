@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box ;
+	padding: 0px;
+	margin: 0px;
+}
+.img{
+	height: 100vh;
+	width: 100%;
+	background-image: url(j.jpg);
+	background-size:cover ;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+div nav ul li{
+	display: inline-block;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 1.5em;
+	font: bold;
+}
+div nav ul li a{
+	color: white;
+	
+	text-decoration: none;
+}
+div nav ul li a:hover{
+	color: white;
+	background-color: green;
+	padding: 10px 10px;
+	border: 2px solid transparent;
+	border-radius: 25px;
+	transition: .2s;
+}
+.subscribe{
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+	padding: 8px 10px;
+	background-color: #8B0000;
+	border: 2px solid transparent;
+	font-weight: bold ;
+	border-radius: 30px;
+	transition: .4s;
+	
+}
+.subscribe:hover{
+	transform: scale(1.2);
+}
+h2 a{
+	color: white;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 35px;
+}
+h2 a span{
+	color: green;
+}
+
+.content h2{
+	position:absolute;
+	left: 12%;
+	top: 30%;
+	transform: translateY(-50);
+	color: green;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.content p{
+	position:absolute;
+	left: 6%;
+	top: 40%;
+	transform: translateY(-50);
+	color: white;
+	font-size: 21px;
+	font-family: 'Oxygen', sans-serif;
+	max-width: 300px;
+}
+#col{
+	color: green;
+}
+.main{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.joker{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 300px;
+	height: auto;
+	margin-left: 15%;
+}
+.about{
+	width: 600px;
+	margin-right: 60px;
+}
+.about h2{
+	color: white;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+	margin-bottom: 50px;
+	padding-left: 130px;
+}
+.about h2 span{
+	padding-left: 30px;
+	color: green;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+}
+.about p{
+	color: white;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+.end{
+	background-color:black;
+	font-family: 'Oxygen', sans-serif;
+}
+#h1{
+	padding-top: 50px;
+	margin-left: 150px;
+	color: white;
+}
+div h4{
+	padding-top: 20px;
+	margin-left: 150px;
+	color: green;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.soc a{
+	font-size: 35px;
+	padding-right: 25px;
+}
+#insta{
+	color: darkred;
+}
+#twit{
+	color: skyblue;
+}
+.end p{
+	margin-top: 20px;
+	margin-left: 150px;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.end button a{
+	color: white;
+	font-size:15px ;
+	text-decoration: none;
+}
+.end button{
+	margin-left: 150px;
+	background-color: green;
+	padding: 9px 9px;
+	border: 2px solid transparent;
+	border-radius: 30px;
+	margin-bottom: 50px;
+}
+.end button:hover{
+	transform: scale(1.2);
+}
+.soc{
+	margin-left: 150px;
+}	
